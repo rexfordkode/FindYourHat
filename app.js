@@ -30,7 +30,7 @@ class Field {
     do {
       positn .x= Math.floor(Math.random() * this.field[0].length);
       positn .y= Math.floor(Math.random() * this.field.length);
-     } while positn .x=== offLimit.x && positn .y=== offLimit.y);
+     } while (positn .x=== offLimit.x && positn .y=== offLimit.y);
     return positn;
   }
   
